@@ -71,9 +71,9 @@ function selectGameField(event) {
     endGame(playerId);
   }
 
-  // currentRound = currentRound + 1;
+  currentRound = currentRound + 1;
   // or using a shorter way
-  currentRound++;
+  // currentRound++;
   switchPlayer();
 }
 
